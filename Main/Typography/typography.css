@@ -1,0 +1,36 @@
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}
+body{
+    font-family: 'Updock', cursive;
+    box-sizing: border-box;
+
+}
+.heading{
+    border: 2px solid var(--secondary-color);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.left-box,.right-box,.center-box,.grey-text,.small-text{
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 500px;
+}
+.right-box{
+  text-align: right;
+}
+.center-box{
+   text-align: center;
+}
+.small-text{
+    font-size: xx-small;
+}
+.grey-text{
+  color: grey;
+}
+

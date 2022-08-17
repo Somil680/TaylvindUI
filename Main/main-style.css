@@ -1,0 +1,295 @@
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255);
+    --style-color:rgba(248,149,230,255);
+}
+
+
+
+#main-img{
+    right: -6px;
+    position: absolute;
+    top: 70px;
+    width: 500px;
+}
+
+
+
+
+
+#nav-container{
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(224, 224, 224);
+    z-index: 1;
+}
+#link-color{
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+#input-search{
+    padding: 5px;
+    border-radius: 100px;
+    width: 43px;
+}
+#input-search:hover{
+    width: 140px;
+    transition: 3s;
+}
+
+.nav-bar-1{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   
+   
+}
+.nav-button-1{
+    margin-right: 10px;
+    border-radius: 10px;
+        padding: 10px;
+        border: 1px black;
+        
+}
+.nav-btn-1{
+    margin-right: 10px;
+    border-radius: 10px;
+        padding: 10px;
+        border: none;
+        background: black;
+        color: #fff;
+
+}
+
+.page-link{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid rgba(42,70,81,255);
+    border-top: none;
+    border-right: none;
+    border-left: none; */
+    padding: 5px 10px;
+    margin: 5px 0px;
+    /* border-radius: 10px; */
+    width: 150px;
+}
+.page-link:hover{
+    color: #fff;
+    background-color: var(--secondary-color);
+
+    
+}
+
+.linkk{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+    width: max-content;
+    /* padding: 10px; */
+    text-align: center;
+    position:fixed;
+    top: 70px;
+    bottom: 0px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    /* scrollbar-base-color: var(--secondary-color); */
+}
+.hr{
+  position: relative;
+  right: 45px;
+}
+
+
+/* #full-box{
+    border: 1px solid;
+    height: 1000px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-left: 20px;
+    /* padding: 20px; */
+
+
+
+#container{
+    display: flex;
+}
+.mainstyle-container{
+    position: absolute;
+    left: 222px;
+    top: 70px;
+    /* position: fixed; */
+    /* overflow:scroll; */
+    
+
+}
+#source-code{
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: min-content;
+}
+
+
+#footer{
+    display: none;
+    /* border: 1px solid; */
+    /* position:stati; */
+    /* bottom: 0px; */
+    display: flex;
+    justify-content: center;
+    /* left: 440px; */
+    margin: 80px 1px 0px 20px;
+    align-items: baseline;
+}
+
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* box-sizing: border-box; */
+    margin: 0px;
+}
+
+
+
+
+.main-img{
+    /* border: 1px solid; */
+   width: 700px;
+}
+#mybox{
+    background-color: black;
+    color: #fff;
+    height: max-content;
+    padding-bottom: 25px;
+    
+}
+#main-header{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
+}
+#back-color{
+    
+    display: flex;
+    width: 100%;
+    /* height: 100; */
+
+}
+.img-content{
+  
+  width: fit-content;
+  box-shadow: #fff ;
+}
+.content{
+    /* border: 1px solid; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#h{
+    margin: 5px;
+    text-align: justify;
+    
+
+}
+.h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+}
+#icon-icon{
+    margin: 0px 20px;
+    font-size: xx-large;
+}
+
+.start-btn{
+    text-decoration: none;
+    color: black;
+    padding: 9px 14px ;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+ .start-btn:hover{
+    background-color: var(--style-color);
+    color: #fff;
+}
+.ui{
+   
+    color: var(--secondary-color);
+}
+
+.head-box{
+    margin-left: 40px;
+}
+
+#github{
+    text-decoration: none;
+    color: black;
+}
+#linkdin{
+    text-decoration: none;
+    color: black;
+}
+#page-darkmode-btn{
+    background-color:#fff;
+    border: none;
+    width: fit-content;
+}
+
+/* #position-fixed{
+    position: fixed;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
+} */
+
+
+
+
+
+
+
+
+
+
+
+

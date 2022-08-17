@@ -1,0 +1,36 @@
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+#image-spp{ width: 50px; }
+.image-size-1{ width: 30px;  }
+.image-size-2{ width: 50px;  }
+.image-size-3{ width: 70px;  }
+.gp-avatar{
+    border-radius: 100%;
+    width: 50px;
+   
+}
+#gpavatar-2{
+    margin-left: -16px;
+}
+#gpavatar-3{
+    margin-left: -15px;
+}
+.size-inline{
+    display: flex;
+    border: 1px solid var(--secondary-color);
+    padding: 10px 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.second-gp{
+    margin-left: 20px;
+}
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}

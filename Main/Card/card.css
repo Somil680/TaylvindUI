@@ -1,0 +1,135 @@
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}
+
+
+.toc-card{
+    border: 2px solid;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: justify;
+    position: relative;
+}
+.overlay-card{
+    border: 2px solid;
+    width: 275px;
+    border-radius: 10px;
+    position: relative;
+}
+.text-overlay-card{
+     position: relative;
+}
+.overlay-c{
+     border-radius: 10px ;
+}
+.overlay{
+    height: 231px;
+    padding: 10px;
+    width: 356px;
+    position: absolute;
+    top: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0 ,0 ,0 ,0.3);
+   
+
+    
+}
+.btn-overlay{
+    margin: 10px;
+    padding: 5px 10px  ;
+    margin-left: 30px;
+    
+
+}
+#cardtext{
+    padding: 5px;
+    text-align: justify;
+    
+}
+.dark-mode{
+    background-color: rgb(0, 0, 0 ,0.9);
+    color: rgb(219, 213, 213);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 300px;
+}
+.dark-btn{
+       padding: 5px 10px;
+      display: flex;
+      justify-content: center;
+      pa
+      
+    
+}
+.media-card{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 300px;
+    text-align: justify;
+    /* padding: 10px; */
+    box-shadow: 4px 2px 20px 0px;
+
+}
+.media-btn{
+    display: flex;
+    margin: 10px;
+    
+}
+.atc-btn{
+    padding: 10px;
+    width: 220px;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    
+
+
+}
+.w-btn{
+    margin-left: 11px;
+    padding: 09px;
+    font-size: 22px;
+    
+}
+
+.media-badge-card{
+    border: 2px solid;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 20px 0px;
+}
+.intial-price{
+    text-decoration:line-through;
+    color: gray;
+    margin-block-start: 0em;
+}
+.price{
+    display: flex;
+    font-size: 15px;
+
+}
+.discount{
+    color:green;
+}
+
+.badge{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 11px;
+}
+
+.discription{
+    padding:0px 10px 0px 10px ;
+    margin-block-start: 0em;
+    margin-block-end: 5px;
+} 

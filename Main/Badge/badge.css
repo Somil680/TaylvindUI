@@ -1,0 +1,25 @@
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+.notifiy{
+    /* border: 1px solid; */
+    width: fit-content;
+
+}
+#circle{
+    background-color: red;
+    border-radius: 110%;
+    padding: 5px;
+    font-size:x-small;
+    width: fit-content;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}

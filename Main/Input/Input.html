@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT</title>
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="/Main/main-style.css">
+    <script src="https://kit.fontawesome.com/873aede426.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+  <nav id="header" >
+    <div class="head-box"><h2>Taylvind<span class="ui">UI</span></h2> </div>
+    <div id="icon">
+      <h4 id="icon-icon"  >V1.1</h5>
+    <button id="page-darkmode-btn"><i id="icon-icon" class="fa-solid fa-moon"></i></button>
+    <a id="github" href=""><i id="icon-icon" class="fa-brands fa-github"></i></a>
+    <a id="linkdin" href="https://www.linkedin.com/in/somil-agrawal-0b5092189/"> <i id="icon-icon" class="fa-brands fa-linkedin"></i></a>
+      <!-- <i id="icon-icon" class="fa-brands fa-github"></i> -->
+      <!-- <i id="icon-icon" class="fa-brands fa-linkedin"></i> -->
+    </div>
+</nav>
+    
+<div id="container">
+          <div class="linkk">
+            <a class="page-link" href="/Typography/typography.html">Typography</a>
+            <a class="page-link" href="/Alert/alert.html">Alert</a>
+            <a class="page-link" href="/Avatar/avatar.html">Avatar</a>
+            <a class="page-link" href="/Badge/badge.html">Badge</a>
+            <a class="page-link" href="/Button/button.html">Button</a>
+            <a class="page-link" href="/Card/cards.html">Card</a>
+            <a class="page-link" href="/Grid/grid.html">Grid</a>
+            <a class="page-link" href="/Image/image.html">Image</a>
+            <a id="link-color" class="page-link" href="/Input/Input.html">Input</a>
+            <a class="page-link" href="/List/list.html">List</a>
+            <a class="page-link" href="/Modal/modal.html">Modal</a>
+            <a class="page-link" href="/Navigation/Navigation.html">Navigation</a>
+            <a class="page-link" href="/Ratting/Ratting.html">Ratting</a>
+            <a class="page-link" href="/Slider/slider.html">Slider</a>
+            
+          </div>
+
+
+
+
+<div class="mainstyle-container">
+    
+    <H1>👉🏿 Input</H1>
+    <p>An input tag specifies an input feild where the user can enter data</p>
+
+    <h2>👉🏿 SignUp Form</h2>
+    <fieldset class="field-set">
+    
+     <div><input type="text" name="" id="" placeholder="First name"></div>
+     <div><input type="text" placeholder="Last name"></div>
+     <div><input type="date" name="" class="DOB" placeholder="Date of birth"></div>
+     <div><input type="email" name="" id="" placeholder="Email"></div>
+     <div><input type="password" name="" id="" placeholder="Password"></div>
+     <div><input type="password" name="" id="" placeholder="Confirm password"></div>
+     <input class="inp-btn" type="submit" value="Register">
+    
+</fieldset>
+<div id="source-code">
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfieldset%2520class%253D%2522field-set%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522First%2520name%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Last%2520name%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522date%2522%2520name%253D%2522%2522%2520class%253D%2522DOB%2522%2520placeholder%253D%2522Date%2520of%2520birth%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522Email%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522Password%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522Confirm%2520password%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522inp-btn%2522%2520type%253D%2522submit%2522%2520value%253D%2522Register%2522%253E%250A%253C%252Ffieldset%253E"
+  style="width: 500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+
+  <h2>👉🏿 SignUp form with legend</h2>
+<div>
+   <div><fieldset class="input-fieldset"><legend>First name </legend>
+    <input type="text" name="" id="" >
+</fieldset></div>
+   <div><fieldset class="input-fieldset" ><legend>Last name </legend>
+    <input type="text" >
+</fieldset></div>
+   <div><fieldset class="input-fieldset" ><legend>Date of Birth </legend>
+    <input type="date" name="" class="DOB" >
+</fieldset></div>
+   <div><fieldset class="input-fieldset" ><legend>Email </legend>
+    <input type="email" name="" id="" >
+</fieldset></div>
+   <div><fieldset class="input-fieldset" ><legend>Password </legend>
+    <input type="password" name="" id="">
+</fieldset></div>
+   <div><fieldset class="input-fieldset" ><legend>Confirm password </legend>
+    <input type="password" name="" id="">
+</fieldset></div>
+<div><input class="inp-btn" type="submit" value="Register"></div>
+</div>
+
+
+<div id="source-code">
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%253E%253Clegend%253EFirst%2520name%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253ELast%2520name%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EDate%2520of%2520Birth%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522date%2522%2520name%253D%2522%2522%2520class%253D%2522DOB%2522%2520%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EEmail%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EPassword%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EConfirm%2520password%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%250A%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522inp-btn%2522%2520type%253D%2522submit%2522%2520value%253D%2522Register%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+
+
+
+
+
+
+
+    <h2>👉🏿 Login Form</h2>
+    <div><input type="email" name="" id="" placeholder="Email"></div>
+    <div><input type="password" name="" id="" placeholder="Password"></div>
+    <div><input class="inp-btn" type="submit" value="Login"></div>
+
+    <div id="source-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522Email%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520placeholder%253D%2522Password%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522Login%2522%253E%253C%252Fdiv%253E"
+  style="width: 500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+
+    <h2>👉🏿 Login form with legend </h2>
+    <div>
+        <div><fieldset class="input-fieldset" ><legend>Email </legend>
+            <input type="email" name="" id="" >
+        </fieldset></div>
+           <div><fieldset class="input-fieldset" ><legend>Password </legend>
+            <input type="password" name="" id="">
+        </fieldset></div>
+        <div><input class="inp-btn" type="submit" value="Login"></div>
+    </div>
+
+    <div id="source-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EEmail%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%253Clegend%253EPassword%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522Login%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width:500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+
+   <h2>👉🏿 Radio Box</h2>
+
+   <fieldset class="input-fieldset" >
+    <legend>Gender</legend>
+    <div>
+      <input type="radio" name="gender" id="male" ><label for="male">Male</label>    </div>
+      <div><input type="radio" name="gender" id="female"><label for="female">Female</label></div>
+      <div><input type="radio" name="gender" id="others"><label for="others">others</label></div>
+   
+    </fieldset>
+
+    <div id="source-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%2520%253Clegend%253EGender%253C%252Flegend%253E%250A%2520%253Cdiv%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522male%2522%2520%253E%253Clabel%2520for%253D%2522male%2522%253EMale%253C%252Flabel%253E%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522female%2522%253E%253Clabel%2520for%253D%2522female%2522%253EFemale%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520id%253D%2522others%2522%253E%253Clabel%2520for%253D%2522others%2522%253Eothers%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253C%252Ffieldset%253E"
+  style="width: 500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+
+    <h2>👉🏿 Check Box</h2>
+    <fieldset class="input-fieldset" >
+        <legend>Check </legend>
+        <div>    <input type="checkbox" name="" id=""><label for="">Milk </label>
+        </div>
+        <div>    <input type="checkbox" name="" id=""><label for="">Sugar </label>
+        </div>
+        <div>    <input type="checkbox" name="" id=""><label for="">Butter</label>
+        </div>
+        <div>    <input type="checkbox" name="" id=""><label for="">Wheat floor</label>
+        </div>
+    </fieldset>
+    <div id="source-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=628.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=7px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfieldset%2520class%253D%2522input-fieldset%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253ECheck%2520%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%253Clabel%2520for%253D%2522%2522%253EMilk%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%253Clabel%2520for%253D%2522%2522%253ESugar%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%253Clabel%2520for%253D%2522%2522%253EButter%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%253E%253Clabel%2520for%253D%2522%2522%253EWheat%2520floor%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Ffieldset%253E"
+  style="width: 500px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+</div></div>
+<!-- <footer id="footer" >Made With ❤️ By Somil Agrawal</footer> -->
+ </body>
+ </html>

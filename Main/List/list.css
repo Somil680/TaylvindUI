@@ -1,0 +1,70 @@
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}
+
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+.stacked-list{
+   display: flex;
+}
+.li-list{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   width: 400px;
+   border-radius: 10px;
+   margin: 10px;
+}
+#li-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   border: none;
+   border-bottom: 0.5px  solid;
+   box-shadow: #121212;
+   border-radius: 5px;
+}
+.name{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-left: 10px;
+}
+.email-list{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-left: 10px;
+    color: gray;
+}
+.img-list{
+    width: 40px;
+    border-radius: 90%;
+    padding: 5px;
+}
+.follow-btn{
+     margin-right: 10px;
+     /* background-color: var(--secondary-color); */
+}
+.followbtn{
+    background-color: var(--secondary-color);
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}

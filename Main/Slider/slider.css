@@ -1,0 +1,61 @@
+.slider-box{
+    display: flex;
+    padding: 10px;
+    
+}
+input{
+    width: 250px;
+    margin-right: 10px;
+
+}
+
+
+.img-box{
+    border: 10px solid;
+    width:500px;
+    height:200px ;
+    display: inline-flex;
+    
+
+}
+.myslides{
+    width:500px;
+    height:200px ;
+    position: relative;
+    
+}
+.img{
+    width:500px;
+    height:200px 
+}
+
+.prev{
+    font-size:xx-large;
+    position: relative;
+    top: 75px;
+    padding: 5px;
+    background: transparent;
+}
+.next{
+    font-size: xx-large;
+    top: 75px;
+    left: 443px;
+    position: relative;
+    background: transparent;
+}
+.prev:hover {
+    background-color: rgb(0, 0, 0 , 0.4 );
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+
+}
+.next:hover{
+    background-color: rgb(0, 0, 0 , 0.4 );
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+
+}

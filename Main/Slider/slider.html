@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="/Main/main-style.css">
+    <script src="https://kit.fontawesome.com/873aede426.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="header" >
+        <div class="head-box"><h2>Taylvind<span class="ui">UI</span></h2> </div>
+        <div id="icon">
+          <h4 id="icon-icon"  >V1.1</h5>
+        <button id="page-darkmode-btn"><i id="icon-icon" class="fa-solid fa-moon"></i></button>
+        <a id="github" href=""><i id="icon-icon" class="fa-brands fa-github"></i></a>
+        <a id="linkdin" href="https://www.linkedin.com/in/somil-agrawal-0b5092189/"> <i id="icon-icon" class="fa-brands fa-linkedin"></i></a>
+          <!-- <i id="icon-icon" class="fa-brands fa-github"></i> -->
+          <!-- <i id="icon-icon" class="fa-brands fa-linkedin"></i> -->
+        </div>
+    </nav>
+
+        <div id="container">
+          <div class="linkk">
+            <a class="page-link" href="/Typography/typography.html">Typography</a>
+            <a class="page-link" href="/Alert/alert.html">Alert</a>
+            <a class="page-link" href="/Avatar/avatar.html">Avatar</a>
+            <a class="page-link" href="/Badge/badge.html">Badge</a>
+            <a class="page-link" href="/Button/button.html">Button</a>
+            <a class="page-link" href="/Card/cards.html">Card</a>
+            <a class="page-link" href="/Grid/grid.html">Grid</a>
+            <a class="page-link" href="/Image/image.html">Image</a>
+            <a class="page-link" href="/Input/Input.html">Input</a>
+            <a class="page-link" href="/List/list.html">List</a>
+            <a class="page-link" href="/Modal/modal.html">Modal</a>
+            <a class="page-link" href="/Navigation/Navigation.html">Navigation</a>
+            <a class="page-link" href="/Ratting/Ratting.html">Ratting</a>
+            <a id="link-color"  class="page-link" href="/Slider/slider.html">Slider</a>
+            
+          </div>
+
+
+
+
+<div class="mainstyle-container">
+
+    <h1> 👉🏿Slider</h1>
+
+    <h2>👉🏿Volume Slider</h2>
+    <p>
+        Continuous sliders allow users to set and select a value along a subjective range.</p>
+<div class="slider-box">
+<div class="slider">
+    <input type="range"id="input-range" min="0" max="100"  
+    value="5o" oninput="rangevalue()" >
+    </div>
+<div class="slider-value">50</div>
+</div>
+
+
+
+<h2>👉🏿 Carousel</h2>
+   <p> A slideshow is used to cycle through elements:</p>
+
+   <div class="img-box" id="main-box">
+    <div class="myslides">
+        <img class="img" src="./img-silder-1.jpg" alt="">
+    </div> 
+    <div class="myslides">
+        <img class="img" src="./img-slider-2.jpg" alt="">
+    </div>
+    <div class="myslides">
+        <img class="img" src="./img-slider-3.jpg" alt="">
+    </div>
+    <div class="myslides">
+        <img class="img" src="./img-slider-4.jpg" alt="">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+    
+   <!-- <div>
+    <input type="radio" name="" class="currentslide-1">
+    <input type="radio" name="" class="currentslide-2">
+    <input type="radio" name="" class="currentslide-3">
+    <input type="radio" name="" class="currentslide-4">
+   </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+
+<!-- <footer id="footer" >Made With ❤️ By Somil Agrawal</footer> -->
+<script src="./slider.js"></script>
+</body>
+</html>

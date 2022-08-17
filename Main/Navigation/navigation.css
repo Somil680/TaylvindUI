@@ -1,0 +1,102 @@
+
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+/* --------------------------------------------------------------------------- */
+
+.nav-links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+.nav-bar{
+    /* border: 1px solid; */
+    background-color: rgba(191,58,85,255);
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+
+}
+.nav-button{
+    margin-right: 30px;
+border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color:rgba(191,58,85,255) ;
+    
+    
+}
+.nav-bar-1{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.nav-links-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    padding: 5px;
+}
+.nav-links-1:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.nav-button-1{
+    margin-right: 10px;
+    border-radius: 10px;
+        padding: 10px;
+        border: 1px black;
+        
+}
+
+.nav-btn-1{
+    margin-right: 10px;
+    border-radius: 10px;
+        padding: 10px;
+        border: none;
+        background: black;
+        color: #fff;
+
+}
+
+#nav-bar-1-id{
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.nav-links-2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    padding: 5px;
+}
+.nav-links-2:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.nav-btn-2{
+    margin-right: 10px;
+    border-radius: 10px;
+        padding: 10px;
+        border: 2px solid ;
+        background: black;
+        color: #fff;
+
+}
+#nav-center-aligned{
+    display: flex;
+}
+#input-search{
+    padding: 5px;
+    border-radius: 100px;
+    width: 43px;
+}
+#input-search:hover{
+    width: 140px;
+    transition: 3s;
+}

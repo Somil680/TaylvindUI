@@ -1,0 +1,17 @@
+
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+
+
+.responsive-image{
+    min-width: 200px;
+    
+}
+.round-image{
+    border-radius: 50%;
+    border: 2px solid;
+    width: 200px;
+}

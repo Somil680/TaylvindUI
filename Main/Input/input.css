@@ -1,0 +1,37 @@
+:root{
+    --primary-color:rgba(205,82,173,255);
+    /* --primary-color:rgba(252,212,246,255); */
+    --secondary-color:rgba(132,36,108,255)
+}
+
+body{
+    font-family: 'Updock', cursive;
+    /* box-sizing: border-box; */
+}
+
+.input-fieldset{
+    width: 200px;
+}
+
+.DOB{
+    width: 165px;
+}
+input{
+    
+    padding: 10px;
+    margin: 5px 0px;
+}
+.field-set{
+    width: fit-content;
+    border: 1px solid var(--secondary-color);
+}
+.inp-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--secondary-color);
+    color: #fff;
+}
+fieldset{
+    border: 1px solid var(--secondary-color);
+}
