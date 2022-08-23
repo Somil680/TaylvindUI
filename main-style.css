@@ -89,7 +89,7 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
-    width: min-content;
+    max-width: 500px;
 }
 #footer{
     display: none;
