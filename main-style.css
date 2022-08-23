@@ -46,7 +46,7 @@ body{
     background: black;
     color: #fff;
 }
-.page-link{
+/* .page-link{
     text-decoration: none;
     color: black;
     padding: 5px 10px;
@@ -56,8 +56,8 @@ body{
 .page-link:hover{
     color: #fff;
     background-color: var(--secondary-color);
-}
-.linkk{
+} */
+/* .linkk{
     display: flex;
     flex-direction: column;
     border: 1px solid;
@@ -70,7 +70,7 @@ body{
     top: 70px;
     bottom: 0px;
     overflow-y: scroll;
-}
+} */
 .hr{
   position: relative;
   right: 45px;
@@ -180,52 +180,120 @@ body{
     text-decoration: none;
     color: black;
 }
-/* @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
     #bar{
         display: none;
     }
-    
-} */
-@media only screen and (max-width: 500px) {
     .linkk{
-        display: none;
-        
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+        width: max-content;
+        text-align: center;
+        position:fixed;
+        top: 70px;
+        bottom: 0px;
+        overflow-y: scroll;
     }
+    .page-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    width: 150px;
+}
+.page-link:hover{
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+    
+}
+@media only screen and (max-width: 500px) {
+  
     .mainstyle-container{
         position: relative;
         top: 70px;
         left: 20px;
         
     }
+    .page-link{
+        text-decoration: none;
+        /* color: black; */
+        padding: 5px 10px;
+        margin: 5px 0px;
+        color: #fff;
+        /* width: 150px; */
+    }
     
+    .linkk{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position:relative;
+        top: 30px;
+        text-decoration: none;
+        
+       
+    }
+   
+
+
+    #mynav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
     
+     
 }
+
 #closebar{
     color: #fff;
 }
-#link{
-   color: #fff;
-   position: relative;
-   top: 25%;
-   width: 100%;
-   text-align: center;
-   margin-top: 30px;
-}
 
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    color: #fff;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-#page-darkmode-btn{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #page-darkmode-btn{
   
     width: fit-content;
 }
