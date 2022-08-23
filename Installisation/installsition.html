@@ -16,12 +16,13 @@
         <button id="page-darkmode-btn"><i id="icon-icon" class="fa-solid fa-moon"></i></button>
         <a class="social-link" href="/"><i id="icon-icon" class="fa-brands fa-github"></i></a>
         <a class="social-link"  href="https://www.linkedin.com/in/somil-agrawal-0b5092189/"> <i id="icon-icon" class="fa-brands fa-linkedin"></i></a>
-          <!-- <i id="icon-icon" class="fa-brands fa-github"></i> -->
-          <!-- <i id="icon-icon" class="fa-brands fa-linkedin"></i> -->
+        <a id="bar" href="javascript:void(0)" onclick="opennav()" ><i id="icon-icon" class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
 <div id="container">
+  <div class="overlay" id="mynav">
           <div class="linkk">
+              <a  id="closebar" href="javascript:void(0)" onclick="closenav()"><i class="fa-solid fa-xmark"></i></a>
             <a id="link-color"  class="page-link" href="/Installisation/installsition.html">Installisation</a>
             <a class="page-link" href="/Typography/typography.html">Typography</a>
             <a class="page-link" href="/Alert/alert.html">Alert</a>
@@ -39,6 +40,7 @@
             <a class="page-link" href="/Slider/slider.html">Slider</a>
             
           </div>
+          </div>
 <div class="mainstyle-container">
     <h1>Introduction</h1>
     <p>TaylvindUI is an open source styling framework, which helps Developers to use best styles and components, by using pre-defined classnames. TaylvindUI helps you to quickly build your Dream Project, by focusing much on Functionality, because we take care of your Designs.</p>
@@ -46,6 +48,6 @@
     <h2>How to use</h2>
     <p>In order to introduce CrabUI to your project, Copy the Link given below and paste it in the HEAD tag of your html, above all other style sheets.</p>
 </div>
-
+<script src="/app.js"></script>
 </body>
 </html>
