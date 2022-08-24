@@ -93,7 +93,7 @@ body{
     width: 350px;
 }
 #footer{
-    display: none;
+    
     display: flex;
     justify-content: center;
     margin: 80px 1px 0px 20px;
