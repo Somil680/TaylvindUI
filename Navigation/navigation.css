@@ -32,6 +32,7 @@ border-radius: 10px;
     display: flex;
     align-items: center;
    justify-content: space-between;
+   width: max-content;
 }
 .nav-links-1{
     text-decoration: none;
