@@ -20,12 +20,15 @@
         grid-template-columns: 115px 115px 115px ;
     }
 }
+@media only screen and (min-width : 500px) {
+    
+    .grid-box-3{
+        display: grid;
+        grid-template-columns: 170px 170px 170px ;
+    }
+}
     
 
-.grid-box-3{
-    display: grid;
-    grid-template-columns: 170px 170px 170px ;
-}
 body{
     font-family: 'Updock', cursive;
     /* box-sizing: border-box; */
