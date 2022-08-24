@@ -233,7 +233,7 @@ body{
         padding: 5px 10px;
         margin: 5px 0px;
         color: #fff;
-        font-size: xx-large;
+        font-size: 20px;
     }
     .page-link:hover{
         background-color: var(--secondary-color);
