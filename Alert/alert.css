@@ -10,14 +10,11 @@ body{
 .container-alertbox{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* border: 1px solid; */
-    /* border-radius: 10px; */
-    /* margin-left: 50px; */
+ 
     padding-left: 20px;
     padding-top: 70px;
     width: fit-content;
-    left: 200px;
+    /* left: 200px; */
     /* top: 60px; */
     position: relative;
 }
