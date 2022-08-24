@@ -237,11 +237,10 @@ body{
     }
     .page-link{
         text-decoration: none;
-        /* color: black; */
         padding: 5px 10px;
         margin: 5px 0px;
         color: #fff;
-        font-size: 20px;
+        font-size: 30px;
     }
     .page-link:hover{
         background-color: var(--secondary-color);
