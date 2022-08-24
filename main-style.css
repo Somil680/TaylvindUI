@@ -82,6 +82,7 @@ body{
     position: absolute;
     left: 222px;
     top: 70px;
+    
 }
 #source-code{
     border: 1px solid var(--secondary-color);
@@ -89,7 +90,7 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    min-width:fit-content;
+    width: 300px;
 }
 #footer{
     display: none;
