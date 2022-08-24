@@ -313,6 +313,10 @@ body{
 
 #closebar{
     color: #fff;
+    font-size: xx-large;
+    position: absolute;
+    right: 20px;
+    top: 0px;
 }
 
 
