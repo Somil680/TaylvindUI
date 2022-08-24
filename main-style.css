@@ -46,31 +46,6 @@ body{
     background: black;
     color: #fff;
 }
-/* .page-link{
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
-    margin: 5px 0px;
-    width: 150px;
-}
-.page-link:hover{
-    color: #fff;
-    background-color: var(--secondary-color);
-} */
-/* .linkk{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-    width: max-content;
-    text-align: center;
-    position:fixed;
-    top: 70px;
-    bottom: 0px;
-    overflow-y: scroll;
-} */
 .hr{
   position: relative;
   right: 45px;
@@ -82,7 +57,6 @@ body{
     position: absolute;
     left: 222px;
     top: 70px;
-    
 }
 #source-code{
     border: 1px solid var(--secondary-color);
@@ -99,7 +73,6 @@ body{
     margin: 50px 0px 10px 0px;
     align-items: baseline;
 }
-
 #mybox{
     background-color: black;
     color: #fff;
@@ -130,12 +103,10 @@ body{
   box-shadow: #fff ;
 }
 .content{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 #h{
     margin: 5px;
@@ -150,10 +121,6 @@ body{
     display: flex;
     align-items: center;
 }
-/* #icon-icon{
-    margin: 0px 10px;
-    font-size: x-large;
-} */
 .start-btn{
     text-decoration: none;
     color: black;
@@ -169,9 +136,6 @@ body{
 .ui{
     color: var(--secondary-color);
 }
-/* .head-box{
-    margin-left: 40px;
-} */
 .social-link{
     text-decoration: none;
     color: black;
@@ -180,6 +144,11 @@ body{
     text-decoration: none;
     color: black;
 }
+#come-back{
+    text-decoration: none;
+    color: black;
+}
+/* Media querry for screen size above 500px  */
 @media only screen and (min-width: 500px) {
     #bar{
         display: none;
@@ -203,38 +172,36 @@ body{
     }
     .page-link{
         text-decoration: none;
-    color: black;
-    padding: 5px 10px;
-    margin: 5px 0px;
-    width: 150px;
+        color: black;
+        padding: 5px 10px;
+        margin: 5px 0px;
+        width: 150px;
+    }
+    .page-link:hover{
+        color: #fff;
+        background-color: var(--secondary-color);
 }
-.page-link:hover{
-    color: #fff;
-    background-color: var(--secondary-color);
+   #icon-icon{
+       margin: 0px 10px;
+       font-size: x-large;
 }
-#icon-icon{
-    margin: 0px 10px;
-    font-size: x-large;
+    .head-box{
+       margin-left: 40px;
 }
-.head-box{
-    margin-left: 40px;
+    #back-color{
+      display: flex;
+      width: 100%;
 }
-#back-color{
-    display: flex;
-    width: 100%;
 }
 
-    
-}
+/* Media querry for screen size below 500px */
 @media only screen and (max-width: 500px) {
   
     .mainstyle-container{
         position: relative;
         top: 70px;
         left: 3px;
-        /* right: 10px; */
         width : 330px;
-        
     }
     .page-link{
         text-decoration: none;
@@ -246,7 +213,6 @@ body{
     .page-link:hover{
         background-color: var(--secondary-color);
     }
-    
     .linkk{
         display: flex;
         flex-direction: column;
@@ -254,12 +220,7 @@ body{
         position:relative;
         top: 30px;
         text-decoration: none;
-        
-       
     }
-   
-
-
     #mynav {
         height: 100%;
         width: 0;
@@ -271,34 +232,25 @@ body{
         background-color: rgba(0, 0, 0, 0.9);
         overflow-x: hidden;
         transition: 0.5s;
-      }
-      #icon-icon{
+    }
+    #icon-icon{
         margin: 0px 10px;
         font-size: large;
     }
     .head-box{
         margin-left: 10px;
     }
-    /* iframe{
-        width:500px;
-         height: 187px; 
-         border:0; 
-         transform: scale(1) ;
-          overflow-y:scroll;
-           overflow-x:scroll;
-    } */
     #back-color{
         display: block;
         width: 100%;
     }
     .main-img{
         width: 330px;
-     }
+    }
      #mybox {
         background-color: black;
         color: #fff;
         height: 800px;
-       
     }
     .h1{
         font-weight: bolder;
@@ -313,8 +265,7 @@ body{
         background-color: var(--secondary-color);
         width: 200px;
     }
-     
-    #closebar{
+     #closebar{
         color: #fff;
         font-size: xx-large;
         position: absolute;
@@ -356,17 +307,9 @@ body{
 
 
 
-  #page-darkmode-btn{
-  
-    width: fit-content;
-}
 
 
 
-#come-back{
-    text-decoration: none;
-    color: black;
-}
 
 
 
