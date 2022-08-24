@@ -16,7 +16,7 @@ body{
     /* align-items: center; */
 }
 .left-box,.right-box,.center-box,.grey-text,.small-text{
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
