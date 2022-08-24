@@ -307,6 +307,11 @@ body{
         margin: 20px;
         text-align: center;
     }
+    #link-color{
+        color: #fff;
+        background-color: var(--secondary-color);
+        width: 200px;
+    }
      
 }
 
