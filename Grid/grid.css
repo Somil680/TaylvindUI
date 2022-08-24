@@ -1,13 +1,10 @@
 .grid{
     border: 2px solid;
-    /* width: 250px; */
     padding: 10px;
     text-align: center;
-
 }
 .grid-box{
     display: grid;
-    /* border: 2px solid; */
     grid-template-columns: 255px 255px;
 }
 @media only screen and (max-width: 500px) {
@@ -27,9 +24,6 @@
         grid-template-columns: 170px 170px 170px ;
     }
 }
-    
-
 body{
     font-family: 'Updock', cursive;
-    /* box-sizing: border-box; */
 }
