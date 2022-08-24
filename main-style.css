@@ -223,7 +223,8 @@ body{
     .mainstyle-container{
         position: relative;
         top: 70px;
-        left: 20px;
+        left: 10px;
+        right: 10px;
         
     }
     .page-link{
